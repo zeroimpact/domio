@@ -150,6 +150,8 @@ $.fn.hsBgVideo = function (options) {
   }
 
   if (defaultVideo.length) {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) return;
+    
     defaultVideo.not('[data-hs-bgv-type]').each(function () {
       var $this = $(this),
         path = $this.data('hs-bgv-path'),

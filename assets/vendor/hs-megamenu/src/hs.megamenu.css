@@ -46,7 +46,7 @@
 }
 
 .hs-has-sub-menu {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	position: relative;
 }
 

@@ -25,8 +25,6 @@
 
   MegaMenu = (function () {
 
-    var isMenuOpened = false;
-
     function MegaMenu(element, options) {
 
       var self = this;
@@ -134,6 +132,8 @@
     mobileSpeed: 400,
     mobileEasing: 'linear',
 
+    isMenuOpened: false,
+
     beforeOpen: function () {},
     beforeClose: function () {},
     afterOpen: function () {},
@@ -163,8 +163,8 @@
 
       self.resizeTimeOutId = setTimeout(function () {
 
-        if (window.innerWidth <= self.options.breakpoint && self.state == 'desktop') self.initMobileBehavior();
-        else if (window.innerWidth > self.options.breakpoint && self.state == 'mobile') self.initDesktopBehavior();
+        if (window.innerWidth <= self.options.breakpoint && self.state === 'desktop') self.initMobileBehavior();
+        else if (window.innerWidth > self.options.breakpoint && self.state === 'mobile') self.initDesktopBehavior();
 
         self.refresh();
 
@@ -172,13 +172,17 @@
 
     });
 
-    $(document).on('click.HSMegaMenu touchstart.HSMegaMenu', 'body', function (e) {
+    if(window.innerWidth >= 768) {
 
-      var $parents = $(e.target).parents(self.itemsSelector);
+      $(document).on('click.HSMegaMenu touchstart.HSMegaMenu', 'body', function (e) {
 
-      self.closeAll($parents.add($(e.target)));
+        var $parents = $(e.target).parents(self.itemsSelector);
 
-    });
+        self.closeAll($parents.add($(e.target)));
+
+      });
+
+    }
 
     $w.on('keyup.HSMegaMenu', function (e) {
 
@@ -186,7 +190,7 @@
 
         self.closeAll();
 
-        isMenuOpened = false;
+        self.options.isMenuOpened = false;
       }
 
     });
@@ -266,6 +270,8 @@
           this.options.classMap.hasSubMenu + ':not([data-event="click"])',
           function (e) {
 
+            if (!$(this).data('HSMenuItem')) return;
+
             var $this = $(this),
               HSMenuItem = $this.data('HSMenuItem'),
               $chain = $(e.relatedTarget).parents(self.itemsSelector);
@@ -282,7 +288,7 @@
           }
         )
         .on(
-          'click.HSMegaMenu',
+          'click.HSMegaMenu touchstart.HSMegaMenu',
           this.options.classMap.hasMegaMenu + '[data-event="click"] > a, ' +
           this.options.classMap.hasSubMenu + '[data-event="click"] > a',
           function (e) {
@@ -305,8 +311,7 @@
 
             if (HSMenuItem.isOpened) {
               HSMenuItem.desktopHide();
-            }
-            else {
+            } else {
               HSMenuItem.desktopShow();
             }
 
@@ -349,8 +354,7 @@
 
             if (HSMenuItem.isOpened) {
               HSMenuItem.desktopHide();
-            }
-            else {
+            } else {
               HSMenuItem.desktopShow();
             }
 
@@ -440,23 +444,23 @@
 
             HSMenuItem.desktopShow();
 
-            isMenuOpened = true;
+            self.options.isMenuOpened = true;
 
           }
 
           if (e.keyCode && e.keyCode === 13) {
 
-            if (isMenuOpened === true) {
+            if (self.options.isMenuOpened === true) {
 
               HSMenuItem.desktopHide();
 
-              isMenuOpened = false;
+              self.options.isMenuOpened = false;
 
             } else {
 
               HSMenuItem.desktopShow();
 
-              isMenuOpened = true;
+              self.options.isMenuOpened = true;
 
             }
 
@@ -466,7 +470,7 @@
 
         $this.on('focusout', function () {
 
-          isMenuOpened = false;
+          self.options.isMenuOpened = false;
 
         });
 
@@ -478,7 +482,7 @@
 
               HSMenuItem.desktopHide();
 
-              isMenuOpened = false;
+              self.options.isMenuOpened = false;
 
             }
 
@@ -542,8 +546,7 @@
 
         if (MenuItemInstance.isOpened) {
           MenuItemInstance.mobileHide();
-        }
-        else {
+        } else {
           MenuItemInstance.mobileShow();
         }
 
@@ -788,12 +791,11 @@
 
     this.menu.show();
 
-    if (this.options.direction == 'horizontal') this.smartPosition(this.menu, this.options);
+    if (this.options.direction === 'horizontal') this.smartPosition(this.menu, this.options);
 
     if (this.options.animationOut) {
       this.menu.removeClass(this.options.animationOut);
-    }
-    else {
+    } else {
       this.options.afterOpen.call(this, this.$element, this.menu);
     }
 
@@ -825,8 +827,7 @@
     }
     if (this.options.animationOut) {
       this.menu.addClass(this.options.animationOut);
-    }
-    else {
+    } else {
       this.options.afterClose.call(this, this.$element, this.menu);
     }
 
@@ -920,8 +921,7 @@
         element.addClass('hs-reversed');
       }
 
-    }
-    else {
+    } else {
 
       if (element.offset().left < 0) {
         element.addClass('hs-reversed');
@@ -939,13 +939,12 @@
 
     var width = 'auto';
 
-    if (this.options.direction == 'vertical' && this.options.type == 'mega-menu') {
+    if (this.options.direction === 'vertical' && this.options.type === 'mega-menu') {
 
-      if (this.$container && this.$container.data('HSMegaMenu').getState() == 'desktop') {
+      if (this.$container && this.$container.data('HSMegaMenu').getState() === 'desktop') {
         if (!this.options.pageContainer.length) this.options.pageContainer = $('body');
         width = this.options.pageContainer.outerWidth() * (1 - this.options.sideBarRatio);
-      }
-      else {
+      } else {
         width = 'auto';
       }
 
@@ -978,7 +977,7 @@
       i,
       ret;
     for (i = 0; i < l; i++) {
-      if (typeof opt == 'object' || typeof opt == 'undefined')
+      if (typeof opt === 'object' || typeof opt === 'undefined')
         _[i].MegaMenu = new MegaMenu(_[i], opt);
       else
         ret = _[i].MegaMenu[opt].apply(_[i].MegaMenu, args);
