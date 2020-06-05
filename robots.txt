@@ -1,4 +1,1 @@
 User-agent: *
-
-Disallow: /assets/
-Disallow: /local/
