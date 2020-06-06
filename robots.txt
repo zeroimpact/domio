@@ -1,4 +1,5 @@
 User-agent: *
+Sitemap: aureq.com/sitemap.xml
 Disallow: /faq.html
 User-agent: Googlebot-Image
 Disallow: /assets/hero/
