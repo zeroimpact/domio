@@ -4,37 +4,56 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://aureq.com/</loc>
-  <lastmod>2020-06-05T05:47:24+00:00</lastmod>
+  <lastmod>2020-06-06T11:37:49+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://aureq.com/index.html</loc>
-  <lastmod>2020-06-05T05:47:24+00:00</lastmod>
+  <lastmod>2020-06-06T11:37:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/services.html</loc>
-  <lastmod>2020-06-05T05:37:49+00:00</lastmod>
+  <lastmod>2020-06-06T11:37:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/contact.html</loc>
+  <lastmod>2020-06-05T17:42:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/ecommerce.html</loc>
-  <lastmod>2020-06-05T05:47:24+00:00</lastmod>
+  <lastmod>2020-06-05T17:42:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/mobile-first-web-design.html</loc>
-  <lastmod>2020-06-05T05:37:49+00:00</lastmod>
+  <lastmod>2020-06-05T17:42:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/search-engine-optimisation.html</loc>
-  <lastmod>2020-06-05T05:37:49+00:00</lastmod>
+  <lastmod>2020-06-05T17:42:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/social-media-advertising.html</loc>
+  <lastmod>2020-06-06T11:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/social-media-management.html</loc>
+  <lastmod>2020-06-06T11:37:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/ppc-management.html</loc>
+  <lastmod>2020-06-06T11:37:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
