@@ -1,1 +1,4 @@
 User-agent: *
+Disallow: /faq.html
+User-agent: Googlebot-Image
+Disallow: /assets/hero/
