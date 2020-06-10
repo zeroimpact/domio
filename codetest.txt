@@ -1,7 +1,41 @@
 
 
-<picture>
-<source srcset="img/awesomeWebPImage.webp" type="image/webp">
-<source srcset="img/creakyOldJPEG.jpg" type="image/jpeg">
-<img src="img/creakyOldJPEG.jpg" alt="Alt Text!">
-</picture>
+<section class="container g-pt-100 g-pb-40">
+	<div class="row">
+		<div class="col-lg-6 g-mb-60">
+			<div class="mb-4">
+
+      <h2 class="h2 g-font-weight-400 g-mb-30">Build Your Ecommerce Project With Us</h2>
+      </header>
+      <p class="mb-5">Our development team can help you build an eCommerce website using WooCommerce, Shopify, Magento, and Big-Commerce. We can work with the platform you prefer, or help you choose the ideal eCommerce platform for a business of your size.<br><br>We're an expert eCommerce web design company offering the following eCommerce website development services:</p>
+
+      <ul class="list-unstyled g-color-gray-dark-v4 mb-0">
+      <li class="d-flex g-mb-10">
+        <i class="icon-check g-color-primary g-mt-5 g-mr-10"></i>eCommerce website design.
+      </li>
+      <li class="d-flex g-mb-10">
+        <i class="icon-check g-color-primary g-mt-5 g-mr-10"></i>eCommerce module development.
+      </li>
+      <li class="d-flex g-mb-10">
+        <i class="icon-check g-color-primary g-mt-5 g-mr-10"></i>Payment gateway integration.
+      </li>
+      <li class="d-flex g-mb-10">
+        <i class="icon-check g-color-primary g-mt-5 g-mr-10"></i>ERP/CRM integration.
+      </li>
+      <li class="d-flex g-mb-10">
+        <i class="icon-check g-color-primary g-mt-5 g-mr-10"></i>eCommerce optimisation.
+      </li>
+      <li class="d-flex g-mb-10">
+        <i class="icon-check g-color-primary g-mt-5 g-mr-10"></i>Dedicated server, Google Cloud or AWS hosting.
+      </li>
+      </ul>
+      <br />
+      <p><span>Don’t worry, our goal is to give you the best service of what it takes to succeed in eCommerce.</span></p>
+
+			</div>
+		</div>
+		<div class="col-lg-6 g-mb-60">
+			<img class="img-fluid" src="./assets/hero/mobile.png" alt="Mobile ecommerce">
+		</div>
+	</div>
+</section>
