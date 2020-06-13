@@ -9,12 +9,57 @@
 
 <url>
   <loc>https://aureq.com/lt/</loc>
-  <lastmod>2020-06-11T16:03:00+00:00</lastmod>
+  <lastmod>2020-06-13T09:04:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/index.html</loc>
-  <lastmod>2020-06-11T16:03:00+00:00</lastmod>
+  <lastmod>2020-06-13T09:04:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/lt/paslaugos.html</loc>
+  <lastmod>2020-06-13T03:55:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/lt/daznai-uzduodami-klausimai.html</loc>
+  <lastmod>2020-06-13T03:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/lt/kontaktai.html</loc>
+  <lastmod>2020-06-13T03:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/lt/e-komercija.html</loc>
+  <lastmod>2020-06-13T03:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/lt/internetiniu-svetainiu-kurimas.html</loc>
+  <lastmod>2020-06-13T03:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/lt/seo-paslaugos.html</loc>
+  <lastmod>2020-06-13T03:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/lt/socialiniu-tinklu-marketingas.html</loc>
+  <lastmod>2020-06-13T03:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/lt/socialiniu-tinklu-administravimas.html</loc>
+  <lastmod>2020-06-13T03:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aureq.com/lt/ppc-administravimas.html</loc>
+  <lastmod>2020-06-13T03:18:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
