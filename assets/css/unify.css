@@ -3,13 +3,13 @@
   Default Styles
 ------------------------------------*/
 html {
-  font-size: 14px;
+  font-size: 100%;
 }
 
 body {
   font-weight: 400;
   font-size: 1rem;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: #555;
   -webkit-font-smoothing: antialiased;
