@@ -1,7 +1,7 @@
 
 $(function()
 {
-    function after_form_submitted(data) 
+    function after_form_submitted(data)
     {
         if(data.result == 'success')
         {
@@ -27,12 +27,12 @@ $(function()
                 label = $btn.prop('orig_label');
                 if(label)
                 {
-                    $btn.prop('type','submit' ); 
+                    $btn.prop('type','submit' );
                     $btn.text(label);
                     $btn.prop('orig_label','');
                 }
             });
-            
+
         }//else
     }
 
@@ -45,19 +45,19 @@ $(function()
         $('button[type="submit"]', $form).each(function()
         {
             $btn = $(this);
-            $btn.prop('type','button' ); 
+            $btn.prop('type','button' );
             $btn.prop('orig_label',$btn.text());
             $btn.text('Sending ...');
         });
-        
+
 
                     $.ajax({
                 type: "POST",
-                url: 'handler.php',
+                url: './mail/handler.php',
                 data: $form.serialize(),
                 success: after_form_submitted,
-                dataType: 'json' 
-            });        
-        
-      });	
+                dataType: 'json'
+            });
+
+      });
 });
