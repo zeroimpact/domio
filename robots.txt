@@ -1,4 +1,3 @@
 Sitemap: https://aureq.com/sitemap.xml
-Sitemap: https://aureq.com/lt/sitemap.xml
 User-agent:*
 Disallow:
