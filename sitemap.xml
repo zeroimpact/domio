@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://aureq.com/</loc>
@@ -75,12 +73,12 @@
 <url>
   <loc>https://aureq.com/lt/index.html</loc>
   <lastmod>2020-07-16T12:48:47+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/paslaugos.html</loc>
   <lastmod>2020-07-15T08:53:52+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/daznai-uzduodami-klausimai.html</loc>
@@ -90,37 +88,37 @@
 <url>
   <loc>https://aureq.com/lt/kontaktai.html</loc>
   <lastmod>2020-07-15T08:53:52+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/e-komercija.html</loc>
   <lastmod>2020-07-16T15:15:10+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/internetiniu-svetainiu-kurimas.html</loc>
   <lastmod>2020-07-15T08:53:52+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/socialiniu-tinklu-marketingas.html</loc>
   <lastmod>2020-07-15T08:53:52+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/seo-paslaugos.html</loc>
   <lastmod>2020-07-15T08:53:52+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/socialiniu-tinklu-administravimas.html</loc>
   <lastmod>2020-07-15T08:53:52+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/ppc-administravimas.html</loc>
   <lastmod>2020-07-15T08:53:52+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aureq.com/lt/teisine-informacija.html</loc>
