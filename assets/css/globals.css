@@ -28,20 +28,10 @@
           transform: translateX(51%);
 }
 
-/* Link overlay */
-/*------------------------------------
-  Background Attachment
-------------------------------------*/
 .g-bg-attachment-fixed {
   background-attachment: fixed;
 }
 
-/*------------------------------------
-  Background Gradient Colors
-------------------------------------*/
-/* Simple Linear Gradients
-------------------------------------*/
-/* Gray Light v1 */
 .g-bg-gray-light-gradient-v1--after::after {
   background: linear-gradient(to bottom, rgba(247, 247, 247, 0.5), #f7f7f7);
 }
@@ -51,21 +41,16 @@
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9));
 }
 
-/* Linear Gradients
-------------------------------------*/
-/* Gray Gradient */
 .g-bg-gray-lineargradient {
   background-repeat: repeat-x;
   background-image: linear-gradient(180deg, #fff, #dbdbdb);
 }
 
-/* Blue Pink Gradient */
 .g-bg-bluepink-lineargradient {
   background-repeat: repeat-x;
   background-image: linear-gradient(50deg, #2b7cb6, #f62d51);
 }
 
-/* Blue Gradient */
 .g-bg-blue-lineargradient {
   background-repeat: repeat-x;
   background-image: linear-gradient(0deg, #73bec7, #4e66b0);
