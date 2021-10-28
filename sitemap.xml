@@ -4,37 +4,35 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://domio.lt/</loc>
-  <lastmod>2021-10-26T08:59:06+00:00</lastmod>
+  <lastmod>2021-10-27T08:59:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://domio.lt/index.html</loc>
-  <lastmod>2021-10-26T08:59:06+00:00</lastmod>
+  <lastmod>2021-10-27T08:59:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://domio.lt/paslaugos.html</loc>
-  <lastmod>2021-10-26T08:06:05+00:00</lastmod>
+  <lastmod>2021-10-27T08:06:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://domio.lt/kontaktai.html</loc>
-  <lastmod>2021-10-26T08:06:05+00:00</lastmod>
+  <lastmod>2021-10-27T08:06:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://domio.lt/e-komercija.html</loc>
-  <lastmod>2021-10-26T08:06:05+00:00</lastmod>
+  <lastmod>2021-10-27T08:06:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://domio.lt/internetiniu-svetainiu-kurimas.html</loc>
-  <lastmod>2021-10-26T08:06:05+00:00</lastmod>
+  <lastmod>2021-10-27T08:06:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -75,7 +73,7 @@
 <url>
   <loc>https://domio.lt/en/index.html</loc>
   <lastmod>2021-10-26T08:06:05+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://domio.lt/en/services.html</loc>
