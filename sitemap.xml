@@ -1,28 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url><loc>https://domio.lt/</loc><lastmod>2021-11-04T11:11:23+00:00</lastmod><changefreq>weekly</changefreq><priority>1.00</priority></url>
-<url><loc>https://domio.lt/index.html</loc><lastmod>2021-11-04T11:11:23+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/paslaugos.html</loc><lastmod>2021-11-04T11:04:27+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/kontaktai.html</loc><lastmod>2021-11-04T06:47:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/e-komercija.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/internetiniu-svetainiu-kurimas.html</loc><lastmod>2021-11-04T06:47:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/socialiniu-tinklu-marketingas.html</loc><lastmod>2021-11-04T06:47:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/seo-paslaugos.html</loc><lastmod>2021-11-04T06:47:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/socialiniu-tinklu-administravimas.html</loc><lastmod>2021-11-04T06:47:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/ppc-administravimas.html</loc><lastmod>2021-11-04T10:12:25+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/en/index.html</loc><lastmod>2021-11-04T06:47:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/teisine-informacija.html</loc><lastmod>2021-11-04T06:47:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://domio.lt/en/</loc><lastmod>2021-11-04T06:47:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/services.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/contact.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/ecommerce.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/mobile-first-web-design.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/search-engine-optimisation.html</loc><lastmod>2021-11-05T06:19:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/social-media-advertising.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/social-media-management.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/ppc-management.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/legal.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/privatumo-politika.html</loc><lastmod>2021-11-04T06:47:03+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
-<url><loc>https://domio.lt/en/domio-privacy-policy.html</loc><lastmod>2021-11-04T08:42:52+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
-<url><loc>https://domio.lt/daznai-uzduodami-klausimai.html</loc><lastmod>2021-10-27T02:46:32+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://domio.lt/</loc>
+  <lastmod>2021-11-11T12:59:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://domio.lt/index.html</loc>
+  <lastmod>2021-11-11T12:59:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/paslaugos.html</loc>
+  <lastmod>2021-11-04T15:04:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/kontaktai.html</loc>
+  <lastmod>2021-11-04T10:47:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/e-komercija.html</loc>
+  <lastmod>2021-11-07T07:22:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/internetiniu-svetainiu-kurimas.html</loc>
+  <lastmod>2021-11-05T11:31:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/socialiniu-tinklu-marketingas.html</loc>
+  <lastmod>2021-11-04T10:47:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/mobiliuju-aplikaciju-kurimas.html</loc>
+  <lastmod>2021-11-11T15:03:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/el-parduotuviu-interneto-svetainiu-prieziura-ir-administravimas.html</loc>
+  <lastmod>2021-11-11T11:36:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/seo-paslaugos.html</loc>
+  <lastmod>2021-11-04T10:47:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/socialiniu-tinklu-administravimas.html</loc>
+  <lastmod>2021-11-04T10:47:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/ppc-administravimas.html</loc>
+  <lastmod>2021-11-04T14:12:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/index.html</loc>
+  <lastmod>2021-11-04T10:47:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/teisine-informacija.html</loc>
+  <lastmod>2021-11-04T10:47:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/</loc>
+  <lastmod>2021-11-04T10:47:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/services.html</loc>
+  <lastmod>2021-11-04T12:42:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/contact.html</loc>
+  <lastmod>2021-11-04T12:42:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/ecommerce.html</loc>
+  <lastmod>2021-11-04T12:42:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/mobile-first-web-design.html</loc>
+  <lastmod>2021-11-04T12:42:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/search-engine-optimisation.html</loc>
+  <lastmod>2021-11-05T10:19:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/social-media-advertising.html</loc>
+  <lastmod>2021-11-04T12:42:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/social-media-management.html</loc>
+  <lastmod>2021-11-04T12:42:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/ppc-management.html</loc>
+  <lastmod>2021-11-04T12:42:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/legal.html</loc>
+  <lastmod>2021-11-04T12:42:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/privatumo-politika.html</loc>
+  <lastmod>2021-11-04T10:47:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://domio.lt/en/domio-privacy-policy.html</loc>
+  <lastmod>2021-11-04T12:42:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://domio.lt/daznai-uzduodami-klausimai.html</loc>
+  <lastmod>2021-10-27T06:46:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
