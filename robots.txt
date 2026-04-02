@@ -1,2 +1,2 @@
 User-agent:*
-Sitemap: https://domio.lt/sitemap.xml
+Sitemap: https://iconicus.net/sitemap.xml
