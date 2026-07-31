@@ -15930,7 +15930,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   height: 20px;
   background: -webkit-linear-gradient(-225deg, #f7f7f7 10px, transparent 0) 0 10px, -webkit-linear-gradient(-315deg, #f7f7f7 10px, transparent 0) 0 10px;
   background-position: top left;
-  background-repear: repeat-x;
+  background-repeat: repeat-x;
   background-size: 20px 20px;
 }
 
@@ -15950,7 +15950,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   height: 20px;
   background: -webkit-linear-gradient(225deg, #f7f7f7 10px, transparent 0) 0 10px, -webkit-linear-gradient(315deg, #f7f7f7 10px, transparent 0) 0 10px;
   background-position: top left;
-  background-repear: repeat-x;
+  background-repeat: repeat-x;
   background-size: 20px 20px;
 }
 
@@ -15970,7 +15970,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   height: 20px;
   background: -webkit-linear-gradient(-225deg, #fff 10px, transparent 0) 0 10px, -webkit-linear-gradient(-315deg, #fff 10px, transparent 0) 0 10px;
   background-position: top left;
-  background-repear: repeat-x;
+  background-repeat: repeat-x;
   background-size: 20px 20px;
 }
 
@@ -15990,7 +15990,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   height: 20px;
   background: -webkit-linear-gradient(-225deg, #72c02c 10px, transparent 0) 0 10px, -webkit-linear-gradient(-315deg, #72c02c 10px, transparent 0) 0 10px;
   background-position: top left;
-  background-repear: repeat-x;
+  background-repeat: repeat-x;
   background-size: 20px 20px;
 }
 
@@ -16010,7 +16010,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   height: 20px;
   background: -webkit-linear-gradient(-225deg, #000 10px, transparent 0) 0 10px, -webkit-linear-gradient(-315deg, #000 10px, transparent 0) 0 10px;
   background-position: top left;
-  background-repear: repeat-x;
+  background-repeat: repeat-x;
   background-size: 20px 20px;
 }
 
@@ -16030,7 +16030,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   height: 20px;
   background: -webkit-linear-gradient(-225deg, #111 10px, transparent 0) 0 10px, -webkit-linear-gradient(-315deg, #111 10px, transparent 0) 0 10px;
   background-position: top left;
-  background-repear: repeat-x;
+  background-repeat: repeat-x;
   background-size: 20px 20px;
 }
 
