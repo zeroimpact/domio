@@ -3,7 +3,7 @@
 */
 
 @font-face {
-  font-display: block;
+  font-display: swap;
 
   font-family: "jquery-filer";
   src: url("./jquery-filer.eot");
@@ -18,7 +18,7 @@
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-  font-display: block;
+  font-display: swap;
 
     font-family: "jquery-filer";
     src: url("./jquery-filer.svg#jquery-filer") format("svg");

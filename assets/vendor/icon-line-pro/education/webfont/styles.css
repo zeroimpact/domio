@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-  font-display: block;
+  font-display: swap;
 
   font-family: "education-48";
   src:url("fonts/education-48.eot");

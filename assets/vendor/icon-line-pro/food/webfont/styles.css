@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-  font-display: block;
+  font-display: swap;
 
   font-family: "food-48";
   src:url("fonts/food-48.eot");
