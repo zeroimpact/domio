@@ -8,6 +8,8 @@
 /* Icons */
 @font-face
 {
+  font-display: block;
+
     font-family: 'slick';
     font-weight: normal;
     font-style: normal;

@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
+  font-display: block;
+
   font-family: "transport";
   src:url("fonts/transport.eot");
   src:url("fonts/transport.eot?#iefix") format("embedded-opentype"),

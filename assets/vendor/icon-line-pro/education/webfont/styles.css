@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
+  font-display: block;
+
   font-family: "education-48";
   src:url("fonts/education-48.eot");
   src:url("fonts/education-48.eot?#iefix") format("embedded-opentype"),

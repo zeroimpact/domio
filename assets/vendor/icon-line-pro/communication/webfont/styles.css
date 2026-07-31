@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
+  font-display: block;
+
   font-family: "communication-48-x-48";
   src:url("fonts/communication-48-x-48.eot");
   src:url("fonts/communication-48-x-48.eot?#iefix") format("embedded-opentype"),

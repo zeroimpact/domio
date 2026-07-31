@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
+  font-display: block;
+
   font-family: "cristmas";
   src:url("fonts/cristmas.eot");
   src:url("fonts/cristmas.eot?#iefix") format("embedded-opentype"),

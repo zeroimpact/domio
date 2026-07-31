@@ -1,4 +1,6 @@
 @font-face {
+  font-display: block;
+
   font-family: 'hs-icons';
   src:
     url('fonts/hs-icons.ttf?xa77py') format('truetype'),

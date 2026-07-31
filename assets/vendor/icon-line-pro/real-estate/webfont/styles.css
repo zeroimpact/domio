@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
+  font-display: block;
+
   font-family: "real-estate";
   src:url("fonts/real-estate.eot");
   src:url("fonts/real-estate.eot?#iefix") format("embedded-opentype"),

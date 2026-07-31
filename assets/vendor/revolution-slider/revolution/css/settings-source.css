@@ -79,6 +79,8 @@ website:   	http://www.themepunch.com
 
 .rtl {	direction: rtl;}
 @font-face {
+  font-display: block;
+
   font-family: 'revicons';
   src: url('../fonts/revicons/revicons.eot?5510888');
   src: url('../fonts/revicons/revicons.eot?5510888#iefix') format('embedded-opentype'),

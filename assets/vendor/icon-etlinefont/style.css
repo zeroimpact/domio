@@ -1,4 +1,6 @@
 @font-face {
+  font-display: block;
+
 	font-family: 'et-line';
 	src:url('fonts/et-line.eot');
 	src:url('fonts/et-line.eot?#iefix') format('embedded-opentype'),

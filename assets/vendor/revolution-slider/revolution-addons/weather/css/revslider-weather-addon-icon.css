@@ -4,6 +4,8 @@
  */
 
  @font-face {
+  font-display: block;
+
 	 font-family: 'weather';
 	 src: url('fonts/artill_clean_icons-webfont.eot');
 	 src: url('fonts/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),

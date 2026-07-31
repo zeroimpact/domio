@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
+  font-display: block;
+
   font-family: "electronics";
   src:url("fonts/electronics.eot");
   src:url("fonts/electronics.eot?#iefix") format("embedded-opentype"),

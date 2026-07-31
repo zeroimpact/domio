@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
+  font-display: block;
+
   font-family: "furniture";
   src:url("fonts/furniture.eot");
   src:url("fonts/furniture.eot?#iefix") format("embedded-opentype"),

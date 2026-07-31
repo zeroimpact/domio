@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
+  font-display: block;
+
   font-family: "media";
   src:url("fonts/media.eot");
   src:url("fonts/media.eot?#iefix") format("embedded-opentype"),

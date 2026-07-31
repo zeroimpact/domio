@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
+  font-display: block;
+
   font-family: "hotel-restaurant";
   src:url("fonts/hotel-restaurant.eot");
   src:url("fonts/hotel-restaurant.eot?#iefix") format("embedded-opentype"),
