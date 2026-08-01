@@ -1,2 +1,12 @@
-User-agent:*
+# Allow all crawlers to access the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of development, local build, and configuration resources
+Disallow: /local/
+Disallow: /code/
+Disallow: /purgecss.config.js
+Disallow: /.htaccess
+
+# Specify the sitemap location
 Sitemap: https://iconicus.net/sitemap.xml
