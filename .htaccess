@@ -2,13 +2,14 @@
 <IfModule mod_expires.c>
   ExpiresActive On
 
-  # Default expiration: 1 month after access
-  ExpiresDefault "access plus 1 month"
+  # Default expiration: 1 year after access
+  ExpiresDefault "access plus 1 year"
 
-  # CSS and JavaScript: 1 month
-  ExpiresByType text/css "access plus 1 month"
-  ExpiresByType application/javascript "access plus 1 month"
-  ExpiresByType text/javascript "access plus 1 month"
+  # CSS and JavaScript: 1 year
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType application/x-javascript "access plus 1 year"
 
   # HTML documents: 0 seconds (always check for updates)
   ExpiresByType text/html "access plus 0 seconds"
@@ -38,6 +39,20 @@
   ExpiresByType video/mp4 "access plus 1 year"
   ExpiresByType video/mpeg "access plus 1 year"
   ExpiresByType audio/mpeg "access plus 1 year"
+</IfModule>
+
+# Force Cache-Control Headers for modern browsers
+<IfModule mod_headers.c>
+  # 1 Year cache for static assets (31536000 seconds)
+  <FilesMatch "\.(css|js|gif|pdf|jpg|jpeg|png|webp|svg|ico|txt|ttf|otf|woff|woff2)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+  # Prevent caching for dynamic/HTML files to ensure instant updates
+  <FilesMatch "\.(html|htm|php)$">
+    Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
 </IfModule>
 
 # Enable compression (Gzip) to further improve page speed
