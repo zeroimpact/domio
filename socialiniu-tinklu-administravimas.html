@@ -69,44 +69,62 @@
 
   <!-- Structured Data (Schema.org) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "ProfessionalService",
-        "@id": "https://iconicus.net/#organization",
-        "name": "ICONICUS",
-        "url": "https://iconicus.net/",
-        "logo": "https://iconicus.net/assets/img/logo/iconicus-agency-logo.webp",
-        "sameAs": [
-          "https://www.facebook.com/iconicus.agency/",
-          "https://www.instagram.com/iconicus.agency/"
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://iconicus.net/#organization",
+      "name": "ICONICUS",
+      "url": "https://iconicus.net/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://iconicus.net/#logo",
+        "url": "https://iconicus.net/assets/img/logo/iconicus-agency-logo.webp",
+        "caption": "ICONICUS"
       },
-      {
-        "@type": "WebSite",
-        "@id": "https://iconicus.net/#website",
-        "url": "https://iconicus.net/",
-        "name": "ICONICUS",
-        "description": "Skaitmeninio marketingo agentūra | Svetainių kūrimas & SEO",
-        "publisher": {
-          "@id": "https://iconicus.net/#organization"
-        },
-        "inLanguage": "lt-LT"
+      "image": {
+        "@id": "https://iconicus.net/#logo"
       },
-      {
-        "@type": "WebPage",
-        "@id": "https://iconicus.net/socialiniu-tinklu-administravimas.html#webpage",
-        "url": "https://iconicus.net/socialiniu-tinklu-administravimas.html",
-        "name": "Socialinių tinklų administravimas ir reklama | Iconicus",
-        "isPartOf": {
-          "@id": "https://iconicus.net/#website"
-        },
-        "description": "Profesionalus socialinių tinklų administravimas ir reklamos priežiūra. Kuriame vizualinį turinį, rašome tekstus ir valdome jūsų prekės ženklo komunikaciją.",
-        "inLanguage": "lt-LT"
-      }
-    ]
-  }
+      "description": "Profesionali skaitmeninė rinkodara vienose rankose. El. parduotuvių ir svetainių kūrimas, Google Ads bei SEO paslaugos, kurios augina Jūsų pardavimus.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "71-75, Shelton Street, Covent Garden",
+        "addressLocality": "London",
+        "postalCode": "WC2H 9JQ",
+        "addressCountry": "GB"
+      },
+      "email": "info@iconicus.net",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "sameAs": [
+        "https://www.facebook.com/iconicus.agency/",
+        "https://www.instagram.com/iconicus.agency/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://iconicus.net/#website",
+      "url": "https://iconicus.net/",
+      "name": "ICONICUS",
+      "description": "Skaitmeninio marketingo agentūra | Svetainių kūrimas & SEO",
+      "publisher": {
+        "@id": "https://iconicus.net/#organization"
+      },
+      "inLanguage": "lt-LT"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://iconicus.net/socialiniu-tinklu-administravimas.html#webpage",
+      "url": "https://iconicus.net/socialiniu-tinklu-administravimas.html",
+      "name": "Socialinių tinklų administravimas ir reklama | Iconicus",
+      "isPartOf": {
+        "@id": "https://iconicus.net/#website"
+      },
+      "description": "Profesionalus socialinių tinklų administravimas ir reklamos priežiūra. Kuriame vizualinį turinį, rašome tekstus ir valdome jūsų prekės ženklo komunikaciją.",
+      "inLanguage": "lt-LT"
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -298,32 +316,44 @@
     <div class="g-width-70 g-brd-bottom g-brd-2 g-brd-primary"></div>
   </header>
   <p class="g-color-white-opacity-0_7 g-mb-65">Jums reikia daugiau informacijos apie bet kurią iš mūsų paslaugų? Turite unikalų verslo iššūkį? Norime žinoti, ką galvojate. Pasikalbėkite su skaitmeninės rinkodaros specialistu šiandien ir gaukite daugiau informacijos apie tai, kaip mes galime padėti Jūsų verslui augti.</p>
-  <div class="row align-items-stretch">
-    <div class="col-sm-6 g-mb-30">
-<article class="h-100 g-flex-middle g-brd-left g-brd-3 g-brd-primary g-brd-white--hover g-bg-black-opacity-0_8 g-transition-0_3 g-pa-20">
-  <div class="g-flex-middle-item">
-    <strong class="d-block h6 g-color-white g-font-weight-600 text-uppercase g-mb-10">SUSIRAŠYKIME</strong>
-    <address><p class="g-color-white-opacity-0_7 mb-0"><a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:info@iconicus.net" target="newtab">info@iconicus.net</a></p></address>
-  </div>
-</article>
-</div>
-<div class="col-sm-6 g-mb-30">
-<address class="h-100 g-flex-middle g-brd-left g-brd-3 g-brd-primary g-brd-white--hover g-bg-black-opacity-0_8 g-transition-0_3 g-pa-20">
-  <div class="g-flex-middle-item">
-    <strong class="d-block h6 g-color-white g-font-weight-600 text-uppercase g-mb-10">KLIENTŲ ZONA</strong>
-    <p class="g-color-white-opacity-0_7 mb-0"><a class="g-color-white-opacity-0_8 g-color-white--hover" href="https://iconicus.net/clients/" target="newtab">Pagalbos Centras</a></p>
-  </div>
-</address>
-</div>
-  <div class="col-sm-6 g-mb-30">
-  <address class="h-100 g-flex-middle g-brd-left g-brd-3 g-brd-primary g-brd-white--hover g-bg-black-opacity-0_8 g-transition-0_3 g-pa-20">
-    <div class="g-flex-middle-item"><strong class="d-block h6 g-color-white g-font-weight-600 text-uppercase g-mb-10">JUNGTINĖ KARALYSTĖ</strong>
-      <p class="g-color-white-opacity-0_7 mb-0">71-75, Shelton Street, Covent Garden, Londonas, WC2H 9JQ</p>
-      <p class="g-color-white-opacity-0_7 mb-0">Website: <a class="g-color-white-opacity-0_8 g-color-white--hover" href="https://iconicus.net" target="_blank" rel="noopener noreferrer" title="UK">United Kingdom</a></p>
+    <div class="row align-items-stretch">
+    <div class="col-md-6 col-lg-3 g-mb-30">
+      <article class="h-100 g-flex-middle g-brd-left g-brd-3 g-brd-primary g-brd-white--hover g-bg-black-opacity-0_8 g-transition-0_3 g-pa-20">
+        <div class="g-flex-middle-item">
+          <strong class="d-block h6 g-color-white g-font-weight-600 text-uppercase g-mb-10">SUSIRAŠYKIME</strong>
+          <address>
+            <p class="g-color-white-opacity-0_7 mb-0"><a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:info@iconicus.net" target="newtab">info@iconicus.net</a></p>
+          </address>
+        </div>
+      </article>
     </div>
-  </address>
-</div>
-</div>
+    <div class="col-md-6 col-lg-3 g-mb-30">
+      <address class="h-100 g-flex-middle g-brd-left g-brd-3 g-brd-primary g-brd-white--hover g-bg-black-opacity-0_8 g-transition-0_3 g-pa-20 mb-0">
+        <div class="g-flex-middle-item">
+          <strong class="d-block h6 g-color-white g-font-weight-600 text-uppercase g-mb-10">KLIENTŲ ZONA</strong>
+          <p class="g-color-white-opacity-0_7 mb-0"><a class="g-color-white-opacity-0_8 g-color-white--hover" href="https://iconicus.net/clients/" target="newtab">Pagalbos Centras</a></p>
+        </div>
+      </address>
+    </div>
+    <div class="col-md-6 col-lg-3 g-mb-30">
+      <address class="h-100 g-flex-middle g-brd-left g-brd-3 g-brd-primary g-brd-white--hover g-bg-black-opacity-0_8 g-transition-0_3 g-pa-20 mb-0">
+        <div class="g-flex-middle-item">
+          <strong class="d-block h6 g-color-white g-font-weight-600 text-uppercase g-mb-10">DARBO LAIKAS</strong>
+          <p class="g-color-white-opacity-0_7 mb-0">I - V: 09:00 - 18:00 val.</p>
+          <p class="g-color-white-opacity-0_7 mb-0">VI - VII: Nedirbame</p>
+        </div>
+      </address>
+    </div>
+    <div class="col-md-6 col-lg-3 g-mb-30">
+      <address class="h-100 g-flex-middle g-brd-left g-brd-3 g-brd-primary g-brd-white--hover g-bg-black-opacity-0_8 g-transition-0_3 g-pa-20 mb-0">
+        <div class="g-flex-middle-item">
+          <strong class="d-block h6 g-color-white g-font-weight-600 text-uppercase g-mb-10">JUNGTINĖ KARALYSTĖ</strong>
+          <p class="g-color-white-opacity-0_7 mb-0">71-75, Shelton Street, Covent Garden, Londonas, WC2H 9JQ</p>
+          <p class="g-color-white-opacity-0_7 mb-0">Website: <a class="g-color-white-opacity-0_8 g-color-white--hover" href="https://iconicus.net" target="_blank" rel="noopener noreferrer">United Kingdom</a></p>
+        </div>
+      </address>
+    </div>
+  </div>
 </div>
 </div>
 </div>

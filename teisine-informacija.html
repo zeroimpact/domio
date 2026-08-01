@@ -68,44 +68,62 @@
 
   <!-- Structured Data (Schema.org) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "ProfessionalService",
-        "@id": "https://iconicus.net/#organization",
-        "name": "ICONICUS",
-        "url": "https://iconicus.net/",
-        "logo": "https://iconicus.net/assets/img/logo/iconicus-agency-logo.webp",
-        "sameAs": [
-          "https://www.facebook.com/iconicus.agency/",
-          "https://www.instagram.com/iconicus.agency/"
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://iconicus.net/#organization",
+      "name": "ICONICUS",
+      "url": "https://iconicus.net/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://iconicus.net/#logo",
+        "url": "https://iconicus.net/assets/img/logo/iconicus-agency-logo.webp",
+        "caption": "ICONICUS"
       },
-      {
-        "@type": "WebSite",
-        "@id": "https://iconicus.net/#website",
-        "url": "https://iconicus.net/",
-        "name": "ICONICUS",
-        "description": "Skaitmeninio marketingo agentūra | Svetainių kūrimas & SEO",
-        "publisher": {
-          "@id": "https://iconicus.net/#organization"
-        },
-        "inLanguage": "lt-LT"
+      "image": {
+        "@id": "https://iconicus.net/#logo"
       },
-      {
-        "@type": "WebPage",
-        "@id": "https://iconicus.net/teisine-informacija.html#webpage",
-        "url": "https://iconicus.net/teisine-informacija.html",
-        "name": "Teisinė informacija ir paslaugų teikimo sąlygos | Iconicus",
-        "isPartOf": {
-          "@id": "https://iconicus.net/#website"
-        },
-        "description": "Čia pateikiama skaitmeninio marketingo agentūros ICONICUS teisinė informacija ir paslaugų teikimo sąlygos. Susipažinkite su mūsų taisyklėmis.",
-        "inLanguage": "lt-LT"
-      }
-    ]
-  }
+      "description": "Profesionali skaitmeninė rinkodara vienose rankose. El. parduotuvių ir svetainių kūrimas, Google Ads bei SEO paslaugos, kurios augina Jūsų pardavimus.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "71-75, Shelton Street, Covent Garden",
+        "addressLocality": "London",
+        "postalCode": "WC2H 9JQ",
+        "addressCountry": "GB"
+      },
+      "email": "info@iconicus.net",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "sameAs": [
+        "https://www.facebook.com/iconicus.agency/",
+        "https://www.instagram.com/iconicus.agency/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://iconicus.net/#website",
+      "url": "https://iconicus.net/",
+      "name": "ICONICUS",
+      "description": "Skaitmeninio marketingo agentūra | Svetainių kūrimas & SEO",
+      "publisher": {
+        "@id": "https://iconicus.net/#organization"
+      },
+      "inLanguage": "lt-LT"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://iconicus.net/teisine-informacija.html#webpage",
+      "url": "https://iconicus.net/teisine-informacija.html",
+      "name": "Teisinė informacija ir paslaugų teikimo sąlygos | Iconicus",
+      "isPartOf": {
+        "@id": "https://iconicus.net/#website"
+      },
+      "description": "Čia pateikiama skaitmeninio marketingo agentūros ICONICUS teisinė informacija ir paslaugų teikimo sąlygos. Susipažinkite su mūsų taisyklėmis.",
+      "inLanguage": "lt-LT"
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -156,13 +174,32 @@
         <div class="g-mb-50">
           <h2 class="h3 g-color-black g-font-weight-600 mb-3">Iconicus Teisinė Informacija</h2>
           <div class="mb-4">
-            <p><span class="g-font-weight-700"></span>List of our Company's Legal Documents​</p>
+            <p>Siekdami užtikrinti visišką skaidrumą ir atitiktį aukščiausiems Google E-E-A-T (patikimumo, autoriteto ir profesionalumo) reikalavimams bei Europos Sąjungos teisės aktams, žemiau pateikiame oficialią mūsų skaitmeninės agentūros teisinę informaciją bei veiklos taisykles.</p>
           </div>
-            <p><a href="./privatumo-politika.html">Privatumo Politika</a>​</p>
-        </div>
+          
+          <div class="row g-mb-30">
+            <div class="col-md-6 g-mb-30 g-mb-0--md">
+              <h3 class="h5 g-color-black g-font-weight-600 mb-3">Įmonės rekvizitai</h3>
+              <ul class="list-unstyled">
+                <li class="g-mb-10"><strong>Veiklos vykdytojas:</strong> Iconicus (Skaitmeninės Rinkodaros Agentūra)</li>
+                <li class="g-mb-10"><strong>Registruotos buveinės adresas:</strong> 71-75, Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ</li>
+                <li class="g-mb-10"><strong>Oficialus el. paštas:</strong> <a class="g-color-primary" href="mailto:info@iconicus.net">info@iconicus.net</a></li>
+                <li class="g-mb-10"><strong>Darbo laikas:</strong> I - V: 09:00 - 18:00 val. (GMT / UTC+0)</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h3 class="h5 g-color-black g-font-weight-600 mb-3">Teisiniai dokumentai</h3>
+              <ul class="list-unstyled">
+                <li class="g-mb-10"><a href="./privatumo-politika.html" class="g-color-primary"><i class="fa fa-shield g-mr-5"></i> Privatumo Politika</a></li>
+                <li class="g-mb-10"><a href="./kontaktai.html" class="g-color-primary"><i class="fa fa-envelope g-mr-5"></i> Susisiekti su mumis</a></li>
+              </ul>
+            </div>
+          </div>
+          
           <div class="g-bg-gray-light-v5 u-ns-bg-v2-top g-bg-gray-light-v5 g-pa-20">
-            <p class="mb-0">If​ ​you do​ ​not​ ​agree​ ​to​ ​the​ ​terms​ ​of​ ​our Legal Documents,​ ​please​ ​do​ ​not​ ​use​ ​or​ ​access​ ​the​ ​Site,​ ​the​ ​Software,​ ​or​ ​the​ ​Services.</p>
+            <p class="mb-0">Naudodamiesi šia svetaine, jos programine įranga ar teikiamomis skaitmeninėmis paslaugomis, Jūs sutinkate su šiomis sąlygomis ir privatumo politika. Jeigu nesutinkate su šiomis taisyklėmis, prašome nesinaudoti mūsų svetaine bei teikiamomis paslaugomis.</p>
           </div>
+        </div>
       </section>
     </main>
   <footer class="g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20">
